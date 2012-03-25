@@ -49,13 +49,13 @@ M = \{ M_i/i= \overline{1,I} \}
 Светофоры и знаки на перекрестках
 
 \begin{equation}\label{eq:crosstime}
-\forall U_h^{i} :S^i_{h} = \{ S^{ih}_{\alpha \beta}/\alpha = \overline{1,{\alpha}_h} , \beta = \overline{1,{\beta}_{\alpha} \}
+\forall U_h^{i} :S^i_{h} = \{ S^{ih}_{\alpha \beta}/\alpha = \overline{1,{\alpha}_h} , \beta = \overline{1,{\beta}_{\alpha}} \}
 \end{equation}
 
 Необходимо минимизирвоать время проезда транспртными средствами \begin{math}A_k\end{math} регулируемых перекрестков \begin{math}S^i_{h}\end{math} путем изменения интервалов dhtvtyb работы светофоров
 
 \begin{equation}\label{eq:crosstimemin}
-min \sum_{ikh} S^{ih}_{\alpha \beta^{\prime} k}, \text{где}\ \forall i \in I, \forall k \in K_i, \forall h \in H_j, \beta^{\prime} \in \beta \alpha , \alpha \in \alpha h
+min \sum_{ikh} S^{ih}_{\alpha \beta^{\prime} k}, \text{где}\ \forall i \in I, \forall k \in K_i, \forall h \in H_j, \beta^{\prime} \in \beta \alpha , \alpha \in \alpha h , \text{где}\ \alpha - \text{интекс светофора}, \beta - \text{параметры светофоров}
 \end{equation}
 
 Общий алгоритм решения задачи (1)-(5) состотоит из следующих этапов:
